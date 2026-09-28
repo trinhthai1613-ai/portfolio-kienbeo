@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Trung Kien | Java Backend Developer</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Nguyen Trung Kien, a Java Intern and student at FPT University.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">NTK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h3>Hello, I'm</h3>
+            <h1>Nguyen Trung Kien</h1>
+            <h2 class="typing-text">Java Backend Intern <span></span></h2>
+            <p>I am a Software Engineering student at FPT University, passionate about building robust backend systems
+                and learning new technologies.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <!-- Update the href to point to your actual PDF file in the repository -->
+                <a href="CV_NguyenTrungKien.pdf" target="_blank" class="btn btn-secondary"><i
+                        class="fas fa-download"></i> Download CV</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image fade-in delay-1">
+            <!-- Placeholder for profile image. Replace the src with your actual image -->
+            <div class="image-wrapper">
+                <img src="https://ui-avatars.com/api/?name=Trung+Kien&background=random&size=400&font-size=0.33"
+                    alt="Nguyen Trung Kien">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>I am currently a student at <strong>FPT University (FPTU)</strong>, majoring in Software
+                        Engineering. I have a strong foundation in Object-Oriented Programming (OOP) and database
+                        management.</p>
+                    <p>My goal is to secure a <strong>Java Intern</strong> position where I can apply my academic
+                        knowledge to real-world projects, learn from experienced mentors, and contribute to the
+                        company's success.</p>
+                    <div class="education-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>FPT University</h4>
+                            <p>Bachelor of Software Engineering (2020 - Present)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid fade-in">
+                <div class="skill-card glass">
+                    <i class="fab fa-java"></i>
+                    <h3>Java Core</h3>
+                    <p>OOP, Collections, Multithreading, Exception Handling</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Spring Boot</h3>
+                    <p>Spring MVC, Spring Data JPA, RESTful APIs</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fas fa-database"></i>
+                    <h3>Database</h3>
+                    <p>MySQL, SQL Server, Hibernate</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Tools & VCS</h3>
+                    <p>Git, GitHub, Maven, Postman</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fab fa-html5"></i>
+                    <h3>Frontend Basic</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card fade-in glass">
+                    <div class="project-info">
+                        <h3>Sales Management System</h3>
+                        <p>A web application for managing sales, inventory, and customer data. Built with Spring Boot
+                            and Thymeleaf.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card fade-in delay-1 glass">
+                    <div class="project-info">
+                        <h3>Student Management System</h3>
+                        <p>A desktop application to manage student records, grades, and attendance using Java Swing and
+                            JDBC.</p>
+                        <div class="project-tags">
+                            <span>Java Core</span>
+                            <span>Swing</span>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content fade-in">
+                <div class="contact-info glass">
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+84 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your.email@domain.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Hanoi, Vietnam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form glass" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nguyen Trung Kien. All rights reserved.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
